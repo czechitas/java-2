@@ -1,7 +1,4 @@
-Lekce 06
-========
-
-Úkol - Bezdomovci
+Lekce 06 - Úkol 05 - Bezdomovci
 -----------------
 
 Úkolem je vytvořit webovou aplikaci, která zobrazí seznam obličejů a umožní uživateli tipovat,
@@ -11,7 +8,7 @@ Inspirací pro tento úkol byly stránky <https://www.proforhobo.com/>.
 
 Například takto:
 
-![](img/ukol06-screenshot.png)
+![Bezdomovci screenshot](img/ukol06-screenshot.png)
 
 
 
@@ -19,6 +16,7 @@ Například takto:
 #### Postup
 
 Vložte do projektu do složky `resources/static/images/obliceje` všechny obrázky obličejů.
+Obrázky si můžete stáhnout z internetu/vytvořit vlastní nebo použít podklady z následujícího archivu: [Java-Training--Projects--Java-2--Lekce06-Ukol.zip](../../data/2020-jaro/java-2/Java-Training--Projects--Java-2--Lekce06-Ukol.zip)
 Připravte si soubor `index.html` tak, aby se s využitím `th:each` zobrazily všechny obrázky z výše zmíněné složky.
 Atribut `th:each` potřebuje nějaký zdroj dat ze třídy `HlavniController`.
 Bude proto potřeba připravit seznam jmen obrázků.
