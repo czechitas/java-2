@@ -48,6 +48,16 @@ citlivou na všechny adresy `/kontakty/100.html`,
 V lekci jsme si ukazovali `@PathVariable`.
 
 ```java
+@RequestMapping(value = "/{cislo}.html", method = RequestMethod.GET)
+public ModelAndView zobrazDetail(@PathVariable("cislo") Long cisloKontaktu) {
+    // zobrazit formular
+}
+```
+
+Pokud chceme vstup omezit např. pouze na čísla, do URL proměnné {cislo} můžeme za dvojtečku
+přidat regulární výraz omezující formát vstupu:
+
+```java
 @RequestMapping(value = "/{cislo:[0-9]+}.html", method = RequestMethod.GET)
 public ModelAndView zobrazDetail(@PathVariable("cislo") Long cisloKontaktu) {
     // zobrazit formular
@@ -92,6 +102,16 @@ Může vypadat například takto: <br/>
 
 
 Metoda bude vypadat nějak takto:
+```java
+@RequestMapping(value = "/{cislo}", params = "_method=DELETE")
+public ModelAndView zpracujSmazani(@PathVariable("cislo") Long cisloKontaktu) {
+    // smazat zaznam
+
+    return new ModelAndView("redirect:/");
+}
+```
+
+Opět, pokud chceme omezit vstup pouze na čísla, lze tak učinit regulárním výrazem za dvojtečkou:
 ```java
 @RequestMapping(value = "/{cislo:[0-9]+}", params = "_method=DELETE")
 public ModelAndView zpracujSmazani(@PathVariable("cislo") Long cisloKontaktu) {
