@@ -37,7 +37,6 @@ INSERT, UPDATE a DELETE pomoci JdbcTemplate
 1. SQL UPDATE ma primo stejne pojmenovanou metodu v JdbcTemplate. Tedy jdbcTemplate.update(). Nezapomente pouzit parametry s ?
 
 2. Pro SQL DELETE se pouziva take metoda jdbcTemplate.update().
-V nasem pripade je tu jeste zvlastnost, ze my zaznamy v databazi nemazeme, ale pouze vyvolame update tak, ze nastavime vlastnost deleted = TRUE. 
 
 3. Pro INSERT nema trida JdbcTemplate zrovna uzivatelsky prijemne vytvorenu metodu, ktera by umela pridat zaznam do databaze a zaroven vratit vygenerovany primarni klic (ID). Proto se na to pouzije metoda jdbcTemplate.update(preparedStatementCreator, keyHolder), se kterou se pracuje ponekud pracne.
 Zde je tedy listing: 

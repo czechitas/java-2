@@ -9,6 +9,9 @@ public class Clanek {
     private String autor;
     private LocalDate datum;
 
+    public Clanek() {
+    }
+
     public Clanek(String nazev, String autor, LocalDate datum) {
         this.nazev = nazev;
         this.autor = autor;
