@@ -1,5 +1,5 @@
-Kurz Java 2 - webové aplikace pro mírně pokročilé
-=================================================
+Tříměsíní kurz Java 2 - webové aplikace pro mírně pokročilé
+===========================================================
 
 Kurz o tvorbě webových aplikací v Javě nad frameworkem Spring Boot ve 12 lekcích po 2,5 hodiny a 8 domácích úkolech.
 
@@ -62,24 +62,30 @@ Instalace
 ---------
 
 Na kurz je nutné mít nainstalovanou IntelliJ IDEA - Ultimate Edition, JDK, Tomcat a MariaDB.
-Musejí být přesně nastavené, proto je **nutné** použít přesně předpřipravený archív
-podle návodu: https://javainstall.czechitas.cz/ultimate/
+Doporučujeme použít přednastavené aplikace podle návodu:
+<https://javainstall.czechitas.cz/ultimate/>
+Kdyby si začátečnice měly samy instalovat individuální aplikace a nakonfigurovat je,
+nic by se tím nenaučily, protože jim na začátku ty aplikace nic neříkají.
+Jen by to rovnou pustily z hlavy a ještě by každá účastnice měla
+jinak nastavené prostředí, čímž by se hůře řešily potíže.
 
 
 
 Termíny jednotlivých lekcí
 --------------------------
 
-Kurz probíhá jednou týdně, tři měsíce.
+Kurz typicky probíhá jednou týdně, tři měsíce.
 
-Je zcela zásadní, aby studenti chodili na všechny hodiny a nevynechávali je. Na každé lekci se učí něco nového
+Je zcela zásadní, aby studenti chodili na všechny lekce a nevynechávali je. Na každé lekci se učí něco nového
 a snadno by jim jinak mohl ujet vlak.
 
 Druhou zásadní podmínkou je vypracovat všech 8 domácích úkolů. Domácí úkoly mají povinné a dobrovolné části
 (aby neodradily ani pokročilejší ani začátečničtější studenty).
-Každému je třeba věnovat několik hodin, například o víkendu. Domácí úkoly se ukázaly jako
-nejefektivnější způsob, jak se látku naučit. Studenti tím dostávají čas s Javou pořádně experimentovat a naučit se řešit problémy samostatně.
-Je dokonce možné řešit úkoly ve dvojici.
+Pozor, každému je třeba věnovat několik hodin.
+Domácí úkoly se ukázaly jako nejefektivnější způsob, jak se látku naučit.
+Studenti tím dostávají čas s Javou experimentovat a naučit se řešit problémy samostatně.
+Je dokonce možné řešit úkoly ve dvojici, případně požádat kouče a lektory o pomoc.
+Hlavně to ale nevzdat a nevynechávat.
 
 
 
