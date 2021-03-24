@@ -1,0 +1,39 @@
+# Pridej si APT repository od autoru MariaDB (vychozi APT repositories od Ubuntu neobsahuji nejnovejsi distribuci MariaDB)
+# Viz https://websiteforstudents.com/install-upgrade-to-mariadb-10-1-10-2-10-3-latest-on-ubuntu-16-04-lts-server/
+sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.2/ubuntu bionic main'
+
+# No a pak uz jen instaluj. Jen hlavne rekni konkretni verzi.
+sudo apt update
+sudo apt-cache policy mariadb-server
+sudo apt-get install mariadb-server=1:10.2.31+maria~bionic
+
+# Zjisteni stavu instalace a spusteni MariaDB. Melo by to napsat active:
+sudo systemctl status mariadb
+
+# No a pak uz muzes spoustet radkoveho clienta jako root:
+mysql -u root -p
+
+# A jako uzivatel student:
+mysql -u student   -ppassword
+
+
+
+# Fix Plugin ‘unix_socket’ is not loaded Error
+# https://www.linuxbabe.com/mariadb/plugin-unix_socket-is-not-loaded-2
+sudo systemctl stop mariadb
+sudo mysqld_safe --skip-grant-tables &
+mysql -u root
+
+# Do radkoveho klienta MariaDB napis:
+update mysql.user set plugin='mysql_native_password';
+flush privileges;
+exit;
+
+# A zastav mysql_safe a spust zase server klasicky
+sudo kill -9 $(pgrep mysql)
+sudo systemctl start mariadb
+
+# Pak uz se radkovy klient prihlasi v pohode:
+mysql -u root -p
+

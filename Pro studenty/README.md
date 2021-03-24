@@ -1,5 +1,5 @@
-Kurz Java 2 - web - pro mírně pokročilé
-=======================================
+Kurz Java 2 - Webové aplikace - pro mírně pokročilé
+===================================================
 
 Kurz se zaměřuje na praktický vývoj webových aplikací (serverové strany) v Javě s frameworkem Spring Boot. Java se
 nejčastěji používá právě pro vývoj webových aplikací (jejich serverové strany) a také pro vývoj androidových
@@ -20,11 +20,13 @@ Náplň lekcí
 -----------
 
 1. Webový prohlížeč, webové stránky, webový server
-1. HTML stránka generovaná na serveru ze šablony
-1. Formuláře v HTML, zpracování na serveru v Javě
-1. Přístup do databáze z Javy, Spring JDBC Template
-1. HTML tabulka vyplněná z databáze
-1. Evidence záznamů ve více tabulkách v databázi
+2. HTML stránka generovaná na serveru ze šablony
+3. Formuláře v HTML, zpracování na serveru v Javě
+4. Přístup do databáze z Javy, Spring JDBC Template
+5. HTML tabulka vyplněná z databáze
+6. Evidence záznamů ve více tabulkách v databázi
+
+
 
 Termíny jednotlivých lekcí
 --------------------------

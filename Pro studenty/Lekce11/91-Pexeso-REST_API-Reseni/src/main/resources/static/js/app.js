@@ -32,7 +32,7 @@ function zjistiIdHryZAdresyStranky() {
 }
 
 function udelejKartyKlikatelne() {
-    var seznamElemKaret = document.querySelectorAll(".pexeso > img");
+    var seznamElemKaret = document.querySelectorAll(".karta");
     for (var i = 0; i < seznamElemKaret.length; i++) {
         var elemKarta = seznamElemKaret[i];
         elemKarta.addEventListener("click", priKliknutiNaKartu);
@@ -55,7 +55,7 @@ function zpracujVyslednouHerniPlochu() {
 }
 
 function prekresliStul(herniPlocha) {
-    var seznamElemKaret = document.querySelectorAll(".pexeso > img");
+    var seznamElemKaret = document.querySelectorAll(".karta");
     for (var i = 0; i < seznamElemKaret.length; i++) {
         var elemKarta = seznamElemKaret[i];
         var karticka = herniPlocha.karticky[i];
@@ -81,7 +81,7 @@ function prekresliStul(herniPlocha) {
 
 function priKliknutiNaKartu(evt) {
     var element = evt.target;
-    var seznamElemKaret = document.querySelectorAll(".pexeso > img");
+    var seznamElemKaret = document.querySelectorAll(".karta");
     var poziceKarty = Array.prototype.indexOf.call(seznamElemKaret, element);
     odesliTahNaServer(poziceKarty);
 }

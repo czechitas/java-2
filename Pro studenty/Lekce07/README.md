@@ -9,6 +9,7 @@ Data, informační systémy
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=j0O39WVaPRU)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=fL-d5Cf5K14)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=IIuPw9AoWZE)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=T3V0m_tBAZM)

@@ -9,6 +9,7 @@ Formuláře
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=_Z7vjVTnR5A)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=MwhqO-lfEHA)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=oSNklVE8o0c)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=msJjjF0b_HE)

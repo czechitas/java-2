@@ -10,6 +10,8 @@ import org.springframework.context.annotation.*;
 import org.springframework.context.event.*;
 import org.springframework.core.env.*;
 import org.springframework.web.servlet.*;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.*;
 
 @SpringBootApplication
@@ -73,4 +75,19 @@ public class SpousteciTrida extends SpringBootServletInitializer {
                 evt.getApplicationContext().getServletContext().getContextPath());
     }
 
+    /**
+     * Vypne omezeni CORS pro prohlizec, aby JavaScript i z jine webove aplikace
+     * mohl delat pozadavky na nase REST API.
+     */
+    @Bean
+    public WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**")
+                        .allowedMethods("*")
+                        .allowedOrigins("*");
+            }
+        };
+    }
 }

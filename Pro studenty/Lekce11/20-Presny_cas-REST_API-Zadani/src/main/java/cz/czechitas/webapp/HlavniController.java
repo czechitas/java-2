@@ -16,7 +16,11 @@ public class HlavniController {
     @RequestMapping(value = "/presny-cas", method = RequestMethod.GET)
     public @ResponseBody String zobrazPresnyCas() {
         return "18:30:59, 10. 5. 2018";
+//
+//        // Tip: Vytvori objekt s aktualnim datem a casem
 //        LocalDateTime aktualniCas = LocalDateTime.now();
+//
+//        // Prevede LocalDateTime na String
 //        DateTimeFormatter prevodnik = DateTimeFormatter.ofPattern("HH:mm:ss, d. M. yyyy");
 //        String text = prevodnik.format(aktualniCas);
 //        return text;

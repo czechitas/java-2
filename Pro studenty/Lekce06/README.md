@@ -65,6 +65,7 @@ Takže já používám konstrukci:
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=7fDblF-vPUI)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=HHWL4ByVWkQ)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=ekrr4AZMhMM)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=e6tmum7B9EQ)

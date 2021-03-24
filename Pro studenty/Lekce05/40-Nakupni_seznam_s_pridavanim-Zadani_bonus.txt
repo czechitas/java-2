@@ -1,0 +1,29 @@
+Naprogramujte aplikaci evidující nákupní seznam.
+Vyjděte z aplikace z minulé hodiny se seznamem kontaktů.
+Na stránku se seznamem přidejte odkaz na druhou stránku,
+kde bude uživatel moct zadat nový výrobek.
+Ten se přidá do seznamu na hlavní stránce.
+
+Pro tyto účely bude nutné seznam výrobků v HlavniController vytáhnout z metody zobrazSeznam()
+a povýšit ho na proměnnou celého objektu HlavniController, aby na něj dosáhly všechny metody.
+~~~~
+public class HlavniController {
+    private List<String> seznamVeci;
+}
+~~~~
+
+Počáteční seznam výrobků můžeme do seznamVeci přidat v konstruktoru HlavniController(),
+který si pro tyto účely přidáme:
+~~~~
+public class HlavniController {
+    private List<String> seznamVeci;
+
+    public HlavniController() {
+        seznamVeci = new CopyOnWriteArrayList<>();
+        seznamVeci.add("Banány");
+        seznamVeci.add("Meloun");
+        seznamVeci.add("Třešně");
+        seznamVeci.add("Mango");
+    }
+}
+~~~~

@@ -1,5 +1,8 @@
-Lekce 10 - Úkol 08 - Pexeso na webu
-===================================
+Lekce 10
+========
+
+Úkol - Pexeso na webu
+---------------------
 
 V úkolu 03 jste zobrazovali herní plochu pexesa.
 Připravil jsem kompletně funkční verzi pexesa pro jednoho hráče na webu.

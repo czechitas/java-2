@@ -6,7 +6,7 @@ Do pom.xml do elementu <properties> vlozte tyto zaznamy:
         <mariadb-java-client.version>2.5.4</mariadb-java-client.version>
 
 Dale do pom.xml do elementu <dependencies> vlozte tyto zavislosti:
-    
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
@@ -37,9 +37,10 @@ INSERT, UPDATE a DELETE pomoci JdbcTemplate
 1. SQL UPDATE ma primo stejne pojmenovanou metodu v JdbcTemplate. Tedy jdbcTemplate.update(). Nezapomente pouzit parametry s ?
 
 2. Pro SQL DELETE se pouziva take metoda jdbcTemplate.update().
+V nasem pripade je tu jeste zvlastnost, ze my zaznamy v databazi nemazeme, ale pouze vyvolame update tak, ze nastavime vlastnost deleted = TRUE.
 
 3. Pro INSERT nema trida JdbcTemplate zrovna uzivatelsky prijemne vytvorenu metodu, ktera by umela pridat zaznam do databaze a zaroven vratit vygenerovany primarni klic (ID). Proto se na to pouzije metoda jdbcTemplate.update(preparedStatementCreator, keyHolder), se kterou se pracuje ponekud pracne.
-Zde je tedy listing: 
+Zde je tedy listing:
 
         GeneratedKeyHolder drzakNaVygenerovanyKlic = new GeneratedKeyHolder();
         String sql = "INSERT INTO customers (Firstname, Lastname, Address, Version) " +

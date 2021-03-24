@@ -23,6 +23,7 @@ Síťová vrstva TCP/IP, HTTP
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=8TCfmxzpcpg)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=I6jXGwfxNUc)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=-7nzXIdP6ZA)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=OZdGzBm1kQE)

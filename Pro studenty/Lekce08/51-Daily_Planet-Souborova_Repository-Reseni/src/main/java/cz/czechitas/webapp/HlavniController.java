@@ -53,7 +53,7 @@ public class HlavniController {
     }
 
     @RequestMapping(value = "/clanky/{cislo}.html",
-            method = RequestMethod.POST,
+            method = {RequestMethod.POST, RequestMethod.DELETE},
             params = "_method=DELETE")
     public ModelAndView odstranClanek(@PathVariable("cislo") Long id) {
         clanekRepository.deleteById(id);

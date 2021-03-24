@@ -7,6 +7,7 @@ Databáze II a návhové vzory Business Interface a Dependency Injection
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=lXiZFrWIRrk)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=1XPIdLdzOUA)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=xh1RV4-I3A4)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=JcLVpX2px9Y)

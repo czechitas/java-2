@@ -37,7 +37,7 @@ public class HlavniController {
                              @RequestParam Map<String, String> allParams) {
         int cisloVybraneKarty = zjistiPoziciVybraneKarty(allParams.keySet());
         if (cisloVybraneKarty != -1) {
-                pexesoService.provedTah(idHerniPlochy, cisloVybraneKarty);
+            pexesoService.provedTah(idHerniPlochy, cisloVybraneKarty);
         }
         return "redirect:/stul.html?id=" + idHerniPlochy;
     }

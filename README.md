@@ -51,9 +51,8 @@ Náplň lekcí
     - Webová aplikace - CustomerRepository
     - Domácí úkol: Webová aplikace - select Clanek
 10. JDBC Repository
-    - Domácí úkol: Panenky v databázi
+    - Domácí úkol: Pexeso nad databází
 11. REST API
-    - Bonus: Nasazení na Heroku
 12. Opakování, demo validací
 
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.sevecek</groupId>
-    <artifactId>VideoBoss</artifactId>
+    <artifactId>videoboss</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 

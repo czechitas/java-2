@@ -10,7 +10,7 @@ function obnovCas() {
     var httpKlient = new XMLHttpRequest();
     httpKlient.onload = hotovo;
     httpKlient.onerror = chyba;
-    httpKlient.open("GET", "http://localhost:8080/simplest-http/presny-cas", true);
+    httpKlient.open("GET", "http://localhost:51423/simplest-http/presny-cas", true);
     httpKlient.send();
 }
 
@@ -25,5 +25,5 @@ function chyba(err) {
 }
 
 
-var casovac = setInterval(obnovCas, 5000);
+var casovac = setInterval(obnovCas, 500);
 

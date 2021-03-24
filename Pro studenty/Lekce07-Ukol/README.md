@@ -1,5 +1,8 @@
-Úkol 07 - Informační systém pro seznam kontaktů
------------------------------------------------
+Lekce 07
+========
+
+Úkol - Informační systém pro seznam kontaktů
+--------------------------------------------
 
 Vytvořte jednoduchý informační systém,
 který bude zobrazovat seznam telefonních a e-mailových kontaktů.

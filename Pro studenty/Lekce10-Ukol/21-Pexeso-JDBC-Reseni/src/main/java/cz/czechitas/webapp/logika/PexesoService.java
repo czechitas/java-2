@@ -71,7 +71,6 @@ public class PexesoService {
         if (karticka.getStav() == StavKarty.RUBEM_NAHORU) {
             karticka.setStav(StavKarty.LICEM_NAHORU);
             aktualniPlocha.setStav(StavHry.HRAC1_ZOBRAZENI_VYHODNOCENI);
-
         }
     }
 

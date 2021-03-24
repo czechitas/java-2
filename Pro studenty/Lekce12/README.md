@@ -7,6 +7,7 @@ Rekapitulace a závěr kurzu
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=KIsaYa1AQDY)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=br9yW02DiXU)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=W_tGLA-BLfA)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=Mmky1FApNm0)

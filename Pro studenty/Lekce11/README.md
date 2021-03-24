@@ -7,6 +7,7 @@ REST Web Services (neboli REST API)
 ### Videozáznam
 
 Na YouTube je k dispozici:
+* [záznam z lekce (2020)](https://www.youtube.com/watch?v=0K3T3EIsAOM)
 * [záznam z lekce (2019)](https://www.youtube.com/watch?v=6cv_R6Rl4NU)
 * [záznam z lekce (2018)](https://www.youtube.com/watch?v=hff3W3VooQE)
 * [záznam z lekce (2017)](https://www.youtube.com/watch?v=0SW63bosqws)
