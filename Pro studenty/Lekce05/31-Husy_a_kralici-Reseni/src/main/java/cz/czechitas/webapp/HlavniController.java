@@ -17,8 +17,10 @@ public class HlavniController {
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public ModelAndView zpracujIndex(HusyAKraliciForm vyplnenyFormular) {
         ModelAndView drzakNaDataAJmenoSablony = new ModelAndView("vysledek");
-        int pocetNohou = vyplnenyFormular.getPocetHus() * 2 + vyplnenyFormular.getPocetKraliku() * 4;
-        int pocetHlav = vyplnenyFormular.getPocetHus() + vyplnenyFormular.getPocetKraliku();
+        int pocetHus = vyplnenyFormular.getPocetHus();
+        int pocetKraliku = vyplnenyFormular.getPocetKraliku();
+        int pocetNohou = pocetHus * 2 + pocetKraliku * 4;
+        int pocetHlav = pocetHus + pocetKraliku;
         drzakNaDataAJmenoSablony.addObject("pocetNohou", pocetNohou);
         drzakNaDataAJmenoSablony.addObject("pocetHlav", pocetHlav);
         return drzakNaDataAJmenoSablony;
