@@ -27,7 +27,7 @@ public class HlavniController {
         ModelAndView drzakNaData = new ModelAndView("stul");
 
         List<String> karty = new ArrayList<>();
-        for (int i=1; i<=8; i++) {
+        for (int i=0; i<8; i++) {
             karty.add("karta" + i);
             karty.add("karta" + i);
         }
