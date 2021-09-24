@@ -32,20 +32,20 @@ class Kontakt
 
 Třídě Kontakt vytvořte bezparametrický konstruktor a dva parametrické konstruktory, aby se její objekty snadno vyráběly:
 ~~~java
-public TelefonniKontakt()
-public TelefonniKontakt(String pocatecniJmeno, String pocatecniTelefonniCislo, String pocatecniEmail)
-public TelefonniKontakt(Long id, String pocatecniJmeno, String pocatecniTelefonniCislo, String pocatecniEmail)
+public Kontakt()
+public Kontakt(String pocatecniJmeno, String pocatecniTelefonniCislo, String pocatecniEmail)
+public Kontakt(Long id, String pocatecniJmeno, String pocatecniTelefonniCislo, String pocatecniEmail)
 ~~~
 
 V Controlleru vyrobte seznam osob zhruba takto:
 ~~~java
 private List<Kontakt> seznamKontaktu;
-private Long nejvyssiId = 200L;
+private Long idSekvence = 200L;
 
 public HlavniController() {
     seznamKontaktu = new ArrayList<>();
-    seznamKontaktu.add(new Kontakt(nejvyssiId++, "Johann Gregor Mendel", "+420 544213255", "johann@dieceze-brno.cz"));
-    seznamKontaktu.add(new Kontakt(nejvyssiId++, "Marie Curie Sklodowská", "+33 7456 123 523", "marie@sorbonne.fr"));
+    seznamKontaktu.add(new Kontakt(idSekvence++, "Johann Gregor Mendel", "+420 544213255", "johann@dieceze-brno.cz"));
+    seznamKontaktu.add(new Kontakt(idSekvence++, "Marie Curie Sklodowská", "+33 7456 123 523", "marie@sorbonne.fr"));
 }
 ~~~
     
